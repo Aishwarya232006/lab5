@@ -1,0 +1,185 @@
+p::before {
+    content: "It's Good Stuff!!"
+}
+p::after {
+    content: "."
+}
+
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.card-container{
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+    border: 5px;
+    box-shadow: 10px;
+    flex-wrap: wrap
+}  
+.card{
+    width: 300px;
+  
+    background-color:lavender ;
+    border: 4px;
+    box-shadow: 0px 2px 4px;
+    margin: 20px;
+}
+
+
+.card-content{
+    color: black;
+    border: 2px;
+    padding: 10px;
+}
+body{
+ 
+   background-color: rgb(221, 188, 252); 
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 450px;
+    font-style: normal;
+}
+
+.card-content .btn{
+    display:inline-block;
+    padding: 8px 16px;
+    background-color:black;
+    color: white;
+}
+
+iframe{
+    width: 300px;
+}
+
+
+/* .navbar{
+    position:sticky;
+    color:black ;
+    padding: 10px;
+    margin: 2px;
+}
+
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(blue, rgb(130, 8, 196) ,rgb(180, 10, 151), rgb(234, 3, 180))
+    
+}
+ li{
+    padding-left: 15px;
+}
+.logo a{
+font-size: 35px;
+font-weight: 600px;
+text-transform: uppercase;
+color:white;
+position:fixed;
+}
+
+a:hover{
+    color: lightgreen;
+} */
+.navbar {
+    padding: 10px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(blue, rgb(130, 8, 196) ,rgb(180, 10, 151), rgb(234, 3, 180))
+}
+
+.logo {
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 1rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color:yellow; /* Change this to the desired hover color */
+}
+
+
+
+@media (max-width: 768px) {
+    .navdiv {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+audio{
+    margin: 10px;
+    background-image: linear-gradient(blue, rgb(90, 2, 255), rgb(130, 8, 196), rgb(180, 10, 151), rgb(234, 3, 180));
+}
+nav.ul{
+list-style: none;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
